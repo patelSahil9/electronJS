@@ -1,18 +1,17 @@
 {
-  "name": "electronjs",
+  "dependencies": {
+    "electron-window-state": "^5.0.3",
+    "nodemon": "^3.1.7"
+  },
+  "name": "another",
   "version": "1.0.0",
   "main": "main.js",
+  "devDependencies": {},
   "scripts": {
     "start": "electron .",
     "dev": "nodemon --exec electron ."
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^33.2.1",
-    "electron-window-state": "^5.0.3",
-    "nodemon": "^3.1.7",
-    "vite": "^6.0.3"
-  },
   "description": ""
 }
